@@ -134,7 +134,7 @@ class SparseMatrix {
 async function main() {
   if (process.argv.length < 6) {
     console.log(
-      "Usage: node next.js <operation> <matrix1_file> <matrix2_file> <output_file>"
+      "Usage: node test.js <operation> <matrix1_file> <matrix2_file> <output_file>"
     );
     process.exit(1);
   }
